@@ -17,6 +17,20 @@
     <title>Clinica medica</title>
   </head>
   <body>
+    <!--Navbar-->
+    <nav class="nav">
+      <div>
+        <a href="index.html" style="margin-left: 2em">Clinica Medica</a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="citas.html">Citas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container">
       <h5 class="center">Registro de pacientes</h5>
       <div class="row container__card">
@@ -57,24 +71,23 @@
     </div>
 
     <div class="container table">
-        <h5>Listado de pacientes</h5>
-        <table id="data">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Email</th>
-                    <th>Fecha de Nacimiento</th>
-                </tr>
-            </thead>
-            <tbody>
-            
-            </tbody>  
-        </table>
+      <h5>Listado de pacientes</h5>
+      <table id="data">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Fecha de Nacimiento</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./js/businessLogic.js"></script>
     <script src="./js/uiLogic.js"></script>
   </body>
